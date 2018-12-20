@@ -18,10 +18,10 @@ function sumAll(arr) {
         return sum + arr[0];
     }      
 }
-
+console.log(sumAll([1, 4])); // 1+2+3+4=10
 console.log(sumAll([4, 1])); // 4+3+2+1=10
 
-console.log(sumAll([1, 4])); // 1+2+3+4=10
+
 
 
 
