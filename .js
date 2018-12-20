@@ -42,7 +42,7 @@ function sumAll2(arr) {
 /********  Solution #3   *******************************************************************************/
 
 function sumAll3(arr) {
-   arr.sort((x1,x2) => x1 - x2);  // Using ES6 arrow function to sort numbers in arr from smallest to largest in one single line
+    arr.sort((x1,x2) => x1 - x2);  // Using ES6 arrow function to sort numbers in arr from smallest to largest in one single line
 
     let min = arr[0];
     let max = arr[1];
