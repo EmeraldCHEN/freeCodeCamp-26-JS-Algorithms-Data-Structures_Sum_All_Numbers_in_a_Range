@@ -1,21 +1,20 @@
 function sumAll(arr) {
-    let num;
-    let sum = arr[1];
-
     if(arr[0] < arr[1]){
-        num = arr[1] - 1;   
-        while(num!=arr[0]){
+        let sum = arr[1];
+        let num = arr[1] - 1;   
+        while(num >= arr[0]){
             sum +=  num;
             num--; 
         }
-        return sum + arr[0];
+        return sum;
     }else{
-        num = arr[0] - 1;
-        while(num != arr[1]){
+        let sum = arr[0];
+        let num = arr[0] - 1;
+        while(num >= arr[1]){
             sum +=  num;
             num--; 
         }
-        return sum + arr[0];
+        return sum;
     }      
 }
 console.log(sumAll([1, 4])); // 1+2+3+4=10
