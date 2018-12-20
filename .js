@@ -1,10 +1,9 @@
 function sumAll(arr) {
-    var num;
-    var sum = arr[1];
+    let num;
+    let sum = arr[1];
 
     if(arr[0] < arr[1]){
         num = arr[1] - 1;   
- 
         while(num!=arr[0]){
             sum +=  num;
             num--; 
